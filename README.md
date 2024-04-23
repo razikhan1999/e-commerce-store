@@ -3,7 +3,7 @@
 run commands
 
 npm i 
-cp .env.example .env
+copy .env.example into .env
 npx prisma db push
 npx prisma generate
 
